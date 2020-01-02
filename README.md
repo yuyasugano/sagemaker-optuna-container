@@ -48,7 +48,7 @@ The subdirectory local-test contains scripts and sample data for testing the bui
 
 The tree under test-dir is mounted into the container and mimics the directory structure that SageMaker would create for the running container during training or hosting. We use iris dataset in csv format for local testing.
 
-* __input/config/parameters.json__: The optuna parameters for the training job.
+* __input/config/hyperparameters.json__: The optuna parameters for the training job.
 * __input/data/training/boston.csv__: The training data.
 * __model__: The directory where the algorithm writes the model file.
 * __output__: The directory where the algorithm can write its success or failure file.
